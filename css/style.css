@@ -19,7 +19,7 @@ header{
   background-image: url(../img/sima.jpg) ;
   background-size: cover;
   background-position: center;*/
-  background: center/cover rgba(183, 238, 215, 0.5) url(../img/1004473_top.jpg);
+  background: center/cover rgba(255, 255, 255, 0.5) url(../img/1004473_top.jpg);
   background-repeat: no-repeat;
 }
 
@@ -37,14 +37,22 @@ h1{
 }
 
 
-/* メイン */
-.info{
-  border: 4px solid black;
-    border-radius: 240px 15px 185px 15px / 15px 200px 15px 185px;
-    margin: 2em 0;
-    padding: 2em;
-
+/* メイン  info */
+.info_title{
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
 }
+
+li{
+  padding: 5px;
+  font-size: 105x;
+}
+
+
+
+
+/* メイン セクション */
 
 main{
   width: 100%;
@@ -52,6 +60,12 @@ main{
   background-color:  #ffffff;
   overflow: hidden;
   text-align: center;
+}
+
+main h1{
+  font-size: 50px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 main img{
@@ -66,17 +80,39 @@ main img{
   border: dashed 2px white;
 }
 
+/* メインbox */
 
+.mein_box{
+  text-align: center;
+  margin: auto 100px;
+}
+
+.box_top::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.box_bottom::after{
+  content: "";
+  display: block;
+  clear: both;
+
+}
+
+.box{
+  float: left;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+}
 
 /* フッター */
 footer{
   width: 100%;
-  background: center/cover rgba(183, 238, 215, 0.5) url(../img/1004473_botton.jpg);
+  background: center/cover rgba(250, 252, 251, 0.5) url(../img/1004473_botton.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-p{
   padding-top: 60px;
   text-align: center;
   border-style: none;
@@ -84,26 +120,3 @@ p{
   font-weight: bold;
   font-family: "Comic Sans MS";
 }
-
-
-
-
-
-
-
-
-
-
-
-/* .btn{
-  text-decoration: none;
-  width: 200px;
-  line-height: 50px;
-  font-size: 20px;
-  font-weight: bold;
-  border-radius: 3px;
-}
-
-.btn:hover{
-  opacity: 0.5;
-} */
