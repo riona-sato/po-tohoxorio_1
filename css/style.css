@@ -85,20 +85,20 @@ main img:hover{
 
 .mein_box{
   text-align: center;
-  width: 900px;
-  margin: auto;
+  /* width: 900px; */
+  margin: 20px;
   font-family: "Comic Sans MS";
 }
 
 .box{
-  float: left;
+  /* float: left; */
+  display: inline-block;
   width: 300px;
   height: 350px;
-  display: inline-block;
   text-align: center;
 }
 
- .box_top::after{
+.box_top::after{
   content: "";
   display: block;
   clear: both;
