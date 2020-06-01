@@ -12,12 +12,14 @@ body{
 /* ヘッダー */
 
 header{
-  background: center/cover rgba(250, 252, 251, 0.5) url(../../img/1004473_top.jpg);
+  background: center/cover rgba(255, 255, 255, 0.8) url(../../img/1004473_top.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  height: 300px;
 }
 
 h2{
+  padding: 2em;
   font-size: 30px;
 }
 
@@ -56,6 +58,8 @@ p{
   text-align: center;
   width: 300px;
   height: 300px;
+  margin: 0 10px;
+  margin-bottom: 50px;
 }
 
 .box_top::after{
@@ -73,11 +77,13 @@ p{
 
 /* フッター */
 footer{
-  background: center/cover rgba(250, 252, 251, 0.5) url(../../img/1004473_botton.jpg);
+  background: center/cover rgba(255, 255, 255, 0.8) url(../../img/1004473_botton.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  padding-top: 60px;
 }
 
-footer p{
+a{
   font-size: 20px;
+  font-weight: bolder;
 }

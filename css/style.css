@@ -17,7 +17,7 @@ header{
   background-image: url(../img/sima.jpg) ;
   background-size: cover;
   background-position: center;*/
-  background: center/cover rgba(255, 255, 255, 0.5) url(../img/1004473_top.jpg);
+  background: center/cover rgba(255, 255, 255, 0.8) url(../img/1004473_top.jpg);
   background-repeat: no-repeat;
 }
 
@@ -34,20 +34,67 @@ h1{
   font-style: italic;
 }
 
+/* メイン　メニューバー */
+
+.menu ul li{
+  display: inline-block;
+  margin:  0 20px;
+  position: relative;
+  list-style: none;
+  line-height: 30px;
+  height: 30px;
+  color: black;
+}
+
+.menu li{
+  text-decoration: none;
+}
+
+.menu li:hover{
+  opacity: 0.5;
+  text-decoration: underline;
+}
+
+.menu{
+  width: 900px;
+  margin: auto;
+}
+
+.menu ul{
+  height: 30px;
+  margin: 15px auto 20px;
+  border-top: 2px solid silver;
+  border-bottom: 2px solid silver;
+  font-weight: bolder;
+}
+
 
 /* メイン  info */
-.info_title{
-  padding-bottom: 10px;
-  font-weight: bold;
+
+dl.info_1{
+  padding: 0;
+  line-height: 1.8;
+  width: 40%;
+  margin: 0 auto;
+}
+
+dl.info_1 dt{
+  width: 6em;
+  float: left;
+  margin: 0;
+  padding: 0 0 0 5px;
+}
+
+dl.info_1 dd{
+  margin: 0 0 10px;
+  padding: 0 5px 10px 8em;
+  border-bottom: 1px dotted #cccccc;
+}
+
+.info > p{
   font-size: 20px;
+  font-weight: bolder;
 }
-
-li{
-  padding: 5px;
-  font-size: 105x;
-}
-
-
 
 
 /* メイン セクション */
@@ -60,9 +107,13 @@ main{
 }
 
 main h1{
-  font-size: 50px;
+  font-size: 30px;
   padding-top: 30px;
   padding-bottom: 10px;
+}
+
+main p{
+  padding: 5px;
 }
 
 main img{
@@ -123,7 +174,7 @@ main img:hover{
 /* フッター */
 footer{
   /* width: 100%; */
-  background: center/cover rgba(250, 252, 251, 0.5) url(../img/1004473_botton.jpg);
+  background: center/cover rgba(255, 255, 255, 0.8) url(../img/1004473_botton.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 60px;
