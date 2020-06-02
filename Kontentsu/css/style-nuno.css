@@ -12,19 +12,20 @@ body{
 /* ヘッダー */
 
 header{
-  background: center/cover rgba(255, 255, 255, 0.8) url(../../img/1004473_top.jpg);
+  background: center/cover rgba(255, 255, 255, 0.8) url(../../img/1004473_top_1.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 300px;
 }
 
-h2{
-  padding: 2em;
-  font-size: 30px;
+h1{
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 50px;
 }
 
 p{
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -37,7 +38,7 @@ body img{
   /* margin: 20px; */
 }
 
-h3{
+h2{
   font-size: 20px;
 }
 
@@ -53,7 +54,6 @@ p{
 }
 
 .box{
-  /* float: left; */
   display: inline-block;
   text-align: center;
   width: 300px;
@@ -77,7 +77,7 @@ p{
 
 /* フッター */
 footer{
-  background: center/cover rgba(255, 255, 255, 0.8) url(../../img/1004473_botton.jpg);
+  background: center/cover rgba(255, 255, 255, 0.8) url(../../img/1004473_botton_1.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 60px;
@@ -87,3 +87,6 @@ a{
   font-size: 20px;
   font-weight: bolder;
 }
+
+a:link{ color: black;}
+a:visited { clear: black; }
