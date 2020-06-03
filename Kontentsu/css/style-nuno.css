@@ -19,18 +19,16 @@ header{
 }
 
 h1{
-  padding-top: 30px;
-  padding-bottom: 10px;
+  padding-top: 60px;
   font-size: 50px;
 }
 
-p{
-  font-size: 30px;
+/* メイン */
+main > p{
+  padding-bottom: 30px;
+  font-size: 20px;
   font-weight: bold;
 }
-
-
-/* メイン */
 
 body img{
   width: 250px;
@@ -83,10 +81,10 @@ footer{
   padding-top: 60px;
 }
 
-a{
-  font-size: 20px;
-  font-weight: bolder;
-}
-
 a:link{ color: black;}
 a:visited { clear: black; }
+
+a{
+  font-size: 25px;
+  font-weight: bolder;
+}

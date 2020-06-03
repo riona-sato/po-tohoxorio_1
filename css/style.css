@@ -103,7 +103,6 @@ article > p{
 /* メイン セクション */
 
 main{
-  /* width: 100%; */
   background-color:  #ffffff;
   overflow: hidden;
   text-align: center;
@@ -168,15 +167,13 @@ section p{
 
 /* フッター */
 footer{
-  /* width: 100%; */
   background: center/cover rgba(255, 255, 255, 0.8) url(../img/1004473_botton_1.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 60px;
   text-align: center;
   border-style: none;
-  font-size: 20px;
+  font-size: 2px;
   font-weight: bold;
   font-family: "Comic Sans MS";
 }
-
