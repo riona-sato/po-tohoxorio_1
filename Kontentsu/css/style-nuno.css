@@ -38,6 +38,7 @@ body img{
 
 h2{
   font-size: 20px;
+  padding-top: 10px;
 }
 
 p{
@@ -87,4 +88,70 @@ a:visited { clear: black; }
 a{
   font-size: 25px;
   font-weight: bolder;
+}
+
+@media screen and (max-width:650px){
+  main{
+    /* background-color: brown; */
+  }
+
+  /* ヘッター */
+  header h1{
+    font-size: 45px;
+  }
+
+  header{
+    height: 200px;
+  }
+
+  /* メイン ナビ*/
+  main > p{
+    font-size: 18px;
+  }
+
+  body img{
+    width: 350px;
+    height: 300px;
+  }
+
+  .box{
+    display: block;
+    margin:  auto;
+    margin-bottom: 25px;
+    width: auto;
+    height: auto;
+  }
+}
+
+
+@media screen and (min-width:650px) and (max-width:985px){
+  main{
+    /* background-color: chartreuse; */
+  }
+
+  /* ヘッター */
+  header h1{
+    font-size: 50px;
+  }
+
+  header{
+    height: 250px;
+  }
+
+  /* メイン ナビ*/
+  body img{
+    width: 350px;
+    height: 300px;
+  }
+
+  .box{
+    display: block;
+    margin:  auto;
+    margin-bottom: 25px;
+    width: auto;
+    height: auto;
+  }
+}
+
+
 }
