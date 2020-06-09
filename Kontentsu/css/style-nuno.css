@@ -10,7 +10,6 @@ body{
 }
 
 /* ヘッダー */
-
 header{
   background: center/cover rgba(255, 255, 255, 0.8) url(../../img/1004473_top_1.png);
   background-size: cover;
@@ -33,7 +32,6 @@ main > p{
 body img{
   width: 250px;
   height: 200px;
-  /* margin: 20px; */
 }
 
 h2{
@@ -83,18 +81,14 @@ footer{
 }
 
 a:link{ color: black;}
-a:visited { clear: black; }
+a:visited { clear: black;}
 
-a{
+footer a{
   font-size: 25px;
   font-weight: bolder;
 }
 
 @media screen and (max-width:650px){
-  main{
-    /* background-color: brown; */
-  }
-
   /* ヘッター */
   header h1{
     font-size: 45px;
@@ -121,14 +115,15 @@ a{
     width: auto;
     height: auto;
   }
+
+  /* フッター */
+  footer a{
+    font-size: 20px;
+  }
 }
 
 
 @media screen and (min-width:650px) and (max-width:985px){
-  main{
-    /* background-color: chartreuse; */
-  }
-
   /* ヘッター */
   header h1{
     font-size: 50px;
@@ -151,7 +146,4 @@ a{
     width: auto;
     height: auto;
   }
-}
-
-
 }

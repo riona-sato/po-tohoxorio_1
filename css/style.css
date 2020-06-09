@@ -10,22 +10,17 @@ body{
 
 a:visited { color: black; }
 
-
 /* ヘッダー */
 header{
   height: 300px;
-  /* background-color:rgb(120, 182, 133) ;
-  background-image: url(../img/sima.jpg) ;
-  background-size: cover;
-  background-position: center;*/
   background: center/cover rgba(255, 255, 255, 0.8) url(../img/1004473_top_1.png);
   background-repeat: no-repeat;
 }
 
-header h1,
+/* header h1,
 header p{
   margin: 0;
-}
+} */
 
 h1{
   text-align: center;
@@ -36,7 +31,6 @@ h1{
 }
 
 /* メイン ナビ*/
-
 nav ul li{
   display: inline-block;
   margin:  0 20px;
@@ -69,9 +63,7 @@ nav ul{
   font-weight: bolder;
 }
 
-
 /* メイン  info */
-
 dl.info{
   padding: 0;
   line-height: 1.8;
@@ -99,9 +91,7 @@ article > p{
   margin-top: 50px;
 }
 
-
 /* メイン セクション */
-
 main{
   background-color:  #ffffff;
   overflow: hidden;
@@ -179,7 +169,6 @@ footer{
   font-size: 20px;
 }
 
-
 @media screen and (max-width:650px){
   /* ヘッダー */
   header h1{
@@ -250,10 +239,6 @@ footer{
     font-size: 15px;
     padding-top: 30px;
   }
-
-  main{
-    /* background-color: red; */
-  }
 }
 
 @media screen and (min-width:650px) and (max-width:940px){
@@ -287,10 +272,6 @@ footer{
     margin-top: 30px;
   }
 
-  main{
-    /* background-color: blue; */
-  }
-
 /* メイン セクション */
   section img{
     width: 130px;
@@ -309,11 +290,9 @@ footer{
 
   section h2{
     font-size: 25px;
-    font-weight: bold;
   }
 
   section p{
     font-size: 20px;
   }
-
 }
