@@ -122,13 +122,13 @@ main img:hover{
 
 section{
   text-align: center;
-  margin: 20px;
+  margin: auto;
   font-family: "Comic Sans MS";
 }
 
 .box{
   display: inline-block;
-  width: 330px;
+  width: 300px;
   height: 340px;
   text-align: center;
 }
@@ -152,7 +152,8 @@ section h2{
 }
 
 section p{
-  font-size: 20px;
+  padding-top: 5px;
+  /* font-size: 20px; */
 }
 
 /* フッター */
@@ -218,7 +219,7 @@ footer{
   }
 
   section{
-    margin: auto;
+    /* margin: auto; */
   }
 
   section h1{
@@ -231,7 +232,7 @@ footer{
   }
 
   section p{
-    font-size: 15px;
+    font-size: 12px;
   }
 
 /* フッター */
@@ -241,7 +242,7 @@ footer{
   }
 }
 
-@media screen and (min-width:650px) and (max-width:940px){
+@media screen and (min-width:650px) and (max-width:950px){
   /* ヘッダー */
   header h1{
     font-size: 50px;
@@ -285,7 +286,7 @@ footer{
   }
 
   section{
-    margin: auto;
+    /* margin: auto; */
   }
 
   section h2{
@@ -293,6 +294,6 @@ footer{
   }
 
   section p{
-    font-size: 20px;
+    /* font-size: 20px; */
   }
 }
