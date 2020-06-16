@@ -14,42 +14,49 @@
     <main>
       <h2>お問い合わせ内容入力</h2>
       <p>お問い合わせ内容をご入力の上、「送信」ボタンをクリックしてください。</p>
-      <p>お問い合わせの内容によりましては、回答までにお時間を頂戴する場合がございます。<br>
-        土日祝日、大型連休期間は翌営業日以降の対応となります。<br>
-        ※必ず全ての項目に記入をお願いいたします。</p>
+      <p>内容によりましては、回答までにお時間を頂戴する場合がございます。</p>
+      <p><strong>※必ず全ての項目に記入をお願いいたします。</strong></p>
 
-      <form>
-        <label for="name">お名前</label>
-        <input type="text" id="name" placeholder="苗字 名前" >
+      <form action="" method="POST">
+        <div class="item">
+          <label class="label" for="name">お名前</label>
+          <input type="text" name="your name" id="name" placeholder="例）苗字 名前" required>
+        </div>
 
-        <br>
+        <div class="item">
+          <label class="label" for="me-ru">メールアドレス</label>
+          <input type="email" id="me-ru" name="me-ru" placeholder="例）aaaa@abcd.com" required>
+        </div>
 
-        <label for="me-ru">メールアドレス</label>
-        <input type="text" id="me-ru" placeholder="通信可能なメールアドレス" required>
+        <div class="item">
+          <p class="label">ご利用環境</p>
+            <input type="radio" name="A1" value="スマートフォン">スマートフォン
+            <input type="radio" name="A1" value="パソコン">パソコン
+            <input type="radio" name="A1" value="その他">その他
+        </div>
 
-        <p>ご利用環境<br>
-          <input type="radio" name="A1" value="スマートフォン">スマートフォン
-          <input type="radio" name="A1" value="パソコン">パソコン
-          <input type="radio" name="A1" value="その他">その他
-        </p>
+        <div class="item">
+          <label class="label" for="comment">お問い合わせ内容</label>
+          <textarea id="comment" name="comment" cols="30" rows="5" placeholder="お問い合わせ内容を入力して下さい" required></textarea>
+        </div>
 
-        <br>
+        <div class="item">
+          <p>差し支えなければアンケートにお答え下さい</p>
+          <p class="label">よくみるレシピ</p>
+          <input id="" type="checkbox" name="like" value="布小物"><label for="">布小物</label>
+          <input id="" type="checkbox" name="like" value="ミシン"><label for="">ミシン</label>
+          <input id="" type="checkbox" name="like" value="刺繍"><label for="">刺繍</label>
+          <input id="" type="checkbox" name="like" value="UVレジン"><label for="">UVレジン</label>
+          <input id="" type="checkbox" name="like" value="ビーズ"><label for="">ビーズ</label>
+          <input id="" type="checkbox" name="like" value="編み物"><label for="">編み物</label>
+        </div>
 
-        <label for="toi">お問い合わせ内容</label>
-          <textarea id="toi" name="comment" cols="30" rows="10" placeholder="お問い合わせ内容を入力して下さい。"></textarea>
-
-          <br>
-
-        <input type="submit" value="送信"></input>
+        <div class="btn">
+          <input class="btn_1" type="reset" value="リセットする">
+          <input class="btn_1" type="submit" value="送信する">
+        </div>
       </form>
-
-
-
-
-
-
     </main>
-
 
 
     <footer>
