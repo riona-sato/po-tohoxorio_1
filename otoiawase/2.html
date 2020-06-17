@@ -8,7 +8,6 @@
   </head>
   <body>
     <header>
-      <h1>お問い合わせ</h1>
     </header>
 
     <main>
@@ -30,25 +29,47 @@
 
         <div class="item">
           <p class="label">ご利用環境</p>
-            <input type="radio" name="A1" value="スマートフォン">スマートフォン
-            <input type="radio" name="A1" value="パソコン">パソコン
-            <input type="radio" name="A1" value="その他">その他
+          <div class="radio_vertical">
+            <label>
+              <input type="radio" name="A1" value="スマートフォン">スマートフォン
+            </label>
+            <label>
+              <input type="radio" name="A1" value="パソコン">パソコン
+            </label>
+            <label>
+              <input type="radio" name="A1" value="その他">その他
+            </label>
+          </div>
         </div>
 
         <div class="item">
           <label class="label" for="comment">お問い合わせ内容</label>
-          <textarea id="comment" name="comment" cols="30" rows="5" placeholder="お問い合わせ内容を入力して下さい" required></textarea>
+          <textarea id="comment" name="comment" cols="32" rows="5" placeholder="お問い合わせ内容を入力して下さい" required></textarea>
         </div>
 
         <div class="item">
-          <p>差し支えなければアンケートにお答え下さい</p>
+          <p class="q">差し支えなければアンケートにお答え下さい</p>
           <p class="label">よくみるレシピ</p>
-          <input id="" type="checkbox" name="like" value="布小物"><label for="">布小物</label>
-          <input id="" type="checkbox" name="like" value="ミシン"><label for="">ミシン</label>
-          <input id="" type="checkbox" name="like" value="刺繍"><label for="">刺繍</label>
-          <input id="" type="checkbox" name="like" value="UVレジン"><label for="">UVレジン</label>
-          <input id="" type="checkbox" name="like" value="ビーズ"><label for="">ビーズ</label>
-          <input id="" type="checkbox" name="like" value="編み物"><label for="">編み物</label>
+          <div class="radio_vertical">
+            <label>
+              <input id="" type="checkbox" name="like" value="布小物"><label for="">布小物</label><br>
+            </label>
+            <label>
+              <input id="" type="checkbox" name="like" value="ミシン"><label for="">ミシン</label><br>
+            </label>
+            <label>
+              <input id="" type="checkbox" name="like" value="刺繍"><label for="">刺繍</label><br>
+            </label>
+            <label>
+              <input id="" type="checkbox" name="like" value="UVレジン"><label for="">UVレジン</label><br>
+            </label>
+            <label>
+              <input id="" type="checkbox" name="like" value="ビーズ"><label for="">ビーズ</label><br>
+            </label>
+            <label>
+              <input id="" type="checkbox" name="like" value="編み物"><label for="">編み物</label>
+            </label>
+          </div>
         </div>
 
         <div class="btn">

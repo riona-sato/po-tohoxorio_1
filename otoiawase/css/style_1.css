@@ -35,9 +35,10 @@ main p{
 
 /* フォーム */
 form{
+  width: 500px;
   font-size: 20px;
   margin-top: 30px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .item{
@@ -50,15 +51,39 @@ form{
   width: 200px;
   border-left: solid 5px darkblue;
   padding-left: 15px;
-  margin-left: 20px;
+  margin-left: 30px;
 }
-
 
 textarea{
   resize: both;
 }
 
+.radio_vertical{
+  flex-direction: column;
+  display: inline-flex;
+}
+
+/* アンケート */
+.q{
+  padding: 0.5em 0.5em;
+  text-decoration: none;
+  color: darkblue;
+  border: dashed 2px  darkblue;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+
+
+
 /* ボタン */
+form .btn{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 form .btn_1{
   display: inline-block;
   padding: 0.5em 1em;
