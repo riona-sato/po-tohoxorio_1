@@ -22,6 +22,7 @@ header{
 main{
   width: 550px;
   margin: 0 auto;
+  /* margin: 0 a0to; */
 }
 
 main h2{
@@ -35,7 +36,8 @@ main p{
 
 /* フォーム */
 form{
-  width: 500px;
+  /* width: 500px; */
+  /* width: 400px; */
   font-size: 20px;
   margin-top: 30px;
   /* text-align: center; */
@@ -51,7 +53,8 @@ form{
   width: 200px;
   border-left: solid 5px darkblue;
   padding-left: 15px;
-  margin-left: 30px;
+  /* margin-left: 30px; */
+  margin-left: 65px;
 }
 
 textarea{
@@ -65,26 +68,24 @@ textarea{
 
 /* アンケート */
 .q{
-  padding: 0.5em 0.5em;
+  padding: 0.5em  0.5em;
   text-decoration: none;
   color: darkblue;
   border: dashed 2px  darkblue;
   background: #ffffff;
   border-radius: 10px;
   margin-bottom: 25px;
-  font-size: 20px;
+  /* font-size: 20px; */
+  width: 400px;
 }
 
-
-
-
 /* ボタン */
-form .btn{
+.btn{
   text-align: center;
   margin-bottom: 30px;
 }
 
-form .btn_1{
+.btn_1{
   display: inline-block;
   padding: 0.5em 1em;
   text-decoration: none;
@@ -95,14 +96,11 @@ form .btn_1{
   transition: .4s;
 }
 
-form .btn_1:hover{
+.btn_1:hover{
   background-color: rgb(195, 222, 233);
   color: black;
   border-style: dotted;
 }
-
-
-
 
 /* フッター */
 footer{
@@ -120,3 +118,40 @@ footer a{
   font-size: 25px;
   font-weight: bolder;
 }
+
+/*メディアクリー */
+@media screen and (max-width:650px){
+  header{
+    height: 200px;
+  }
+
+  main{
+    width: 400px;
+  }
+  
+  form{
+    font-size: 16px;
+  }
+
+  .label{
+    margin-left: 10px;
+  }
+
+  textarea{
+    width: 200px;
+    height: 100px;
+  }
+
+  .label{
+    width: 150px;
+    margin-left: 15px;
+  }
+
+  .q{
+    width: 350px;
+  }
+
+}
+
+
+
