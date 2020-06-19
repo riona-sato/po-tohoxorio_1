@@ -42,7 +42,7 @@ nav ul li{
 
 nav li{
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 nav li:hover{
@@ -51,7 +51,7 @@ nav li:hover{
 }
 
 nav{
-  width: 900px;
+  width: 720px;
   margin: auto;
 }
 
@@ -143,7 +143,6 @@ section{
   content: "";
   display: block;
   clear: both ;
-
 }
 
 section h2{
@@ -183,12 +182,13 @@ footer{
 
 /* メイン ナビ*/
   nav{
-    width: 410px;
+    /* width: 410px; */
+    width: 380px;
     margin: auto;
   }
 
   nav li{
-  font-size: 15px;
+  font-size: 13px;
   }
 
   nav ul li{

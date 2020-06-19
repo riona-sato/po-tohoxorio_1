@@ -77,6 +77,7 @@ textarea{
   margin-bottom: 25px;
   /* font-size: 20px; */
   width: 400px;
+  margin-left: 60px;
 }
 
 /* ボタン */
@@ -128,7 +129,7 @@ footer a{
   main{
     width: 400px;
   }
-  
+
   form{
     font-size: 16px;
   }
@@ -149,6 +150,12 @@ footer a{
 
   .q{
     width: 350px;
+    margin-left: 0;
+  }
+
+  footer a{
+    font-size: 20px;
+
   }
 
 }
