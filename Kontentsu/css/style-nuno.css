@@ -71,7 +71,6 @@ p{
   clear: both ;
 }
 
-
 /* フッター */
 footer{
   background: center/cover rgba(255, 255, 255, 0.8) url(../../img/1004473_botton_1.png);
@@ -103,11 +102,6 @@ footer a{
     font-size: 18px;
   }
 
-  /* body img{
-    width: 350px;
-    height: 300px;
-  } */
-
   .box{
     display: block;
     margin:  auto;
@@ -132,12 +126,6 @@ footer a{
   header{
     height: 250px;
   }
-
-  /* メイン ナビ*/
-  /* body img{
-    width: 350px;
-    height: 300px;
-  } */
 
   .box{
     display: block;

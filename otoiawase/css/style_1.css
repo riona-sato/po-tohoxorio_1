@@ -22,7 +22,6 @@ header{
 main{
   width: 550px;
   margin: 0 auto;
-  /* margin: 0 a0to; */
 }
 
 main h2{
@@ -36,11 +35,8 @@ main p{
 
 /* フォーム */
 form{
-  /* width: 500px; */
-  /* width: 400px; */
   font-size: 20px;
   margin-top: 30px;
-  /* text-align: center; */
 }
 
 .item{
@@ -53,7 +49,6 @@ form{
   width: 200px;
   border-left: solid 5px darkblue;
   padding-left: 15px;
-  /* margin-left: 30px; */
   margin-left: 65px;
 }
 
@@ -75,7 +70,6 @@ textarea{
   background: #ffffff;
   border-radius: 10px;
   margin-bottom: 25px;
-  /* font-size: 20px; */
   width: 400px;
   margin-left: 60px;
 }
@@ -98,7 +92,7 @@ textarea{
 }
 
 .btn_1:hover{
-  background-color: rgb(195, 222, 233);
+  background-color: rgb(87, 121, 233);
   color: black;
   border-style: dotted;
 }
@@ -155,10 +149,5 @@ footer a{
 
   footer a{
     font-size: 20px;
-
   }
-
 }
-
-
-
