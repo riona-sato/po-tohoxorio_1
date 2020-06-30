@@ -9,6 +9,7 @@ body{
 }
 
 a:visited { color: black; }
+a:link{ color: black;}
 
 /* ヘッダー */
 header{
