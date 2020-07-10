@@ -216,6 +216,7 @@ footer{
   }
 
   .box{
+    display: block;
     width: 150px;
     height: 250px;
   }
@@ -231,6 +232,7 @@ footer{
 
   section p{
     font-size: 12px;
+
   }
 
 /* フッター */
