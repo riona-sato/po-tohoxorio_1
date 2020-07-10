@@ -76,7 +76,7 @@ dl.info time{
 
 dl.info dd{
   margin: 0 0 10px;
-  padding: 0 5px 10px 8em;
+  padding: 0 5px 10px 6em;
   border-bottom: 1px dotted #cccccc;
 }
 
@@ -182,7 +182,7 @@ footer{
   }
 
   nav li{
-  font-size: 13px;
+  font-size: 12px;
   }
 
   nav ul li{
@@ -191,8 +191,9 @@ footer{
 
 /* メイン  info */
   article .info{
-    margin: auto;
+    /* margin: auto; */
     width: 80%;
+    width: 300px;
   }
 
   article{
