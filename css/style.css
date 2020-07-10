@@ -167,7 +167,7 @@ footer{
 @media screen and (max-width:650px){
   /* ヘッダー */
   header h1{
-    font-size: 40px;
+    font-size: 35px;
     padding-top: 50px;
   }
 
@@ -177,7 +177,7 @@ footer{
 
 /* メイン ナビ*/
   nav{
-    width: 380px;
+    width: 350px;
     margin: auto;
   }
 
@@ -186,13 +186,21 @@ footer{
   }
 
   nav ul li{
-    margin:  0 10px;
+    margin:  0 5px;
   }
 
 /* メイン  info */
   article .info{
     margin: auto;
     width: 80%;
+  }
+
+  article{
+    font-size: 15px;
+  }
+
+  dd{
+    width: 220px;
   }
 
   article > p{
