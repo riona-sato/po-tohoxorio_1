@@ -122,12 +122,12 @@ footer a{
   main{
     /* width: 400px; */
     /* width: 350px; */
-    width: 70%;
+    width: 60%;
   }
 
   form{
-    font-size: 16px;
-    font-size: 14px;
+    font-size: 15px;
+    font-size: 13px;
   }
 
   .label{
@@ -138,18 +138,20 @@ footer a{
 
   textarea{
     /* width: 150px; */
-    width: 130px;
-    height: 100px;
+    width: 100px;
+    height: 80px;
   }
 
   .label{
     /* width: 150px; */
     width: 130px;
+    width: 86px;
     margin-left: 15px;
+    font-size: 10px;
   }
 
   .q{
-    width: 300px;
+    width: 260px;
     margin-left: 0;
   }
 
